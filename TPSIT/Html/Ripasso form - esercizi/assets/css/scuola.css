@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+        flex-direction: row;
+    background-color: #EC9C29;
+    height: auto;
+}
+    header img {
+        width: 300px;
+        object-fit: cover;
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.head_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_container {
+    margin-top: 50px;
+    width: 100vw;
+    /* border: 1px solid #000; */
+}
+    .logo_container img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+table {
+    border: 1px solid #000;
+    width: 500px;
+}
+    table td {
+        gap: 30px;
+        text-align: center;
+        cursor: pointer;
+    }
+    table .table_label * {
+        padding: 10px;
+    }
+
+    table td ul{
+        height: auto;
+        max-height: 0px;
+        border: none;
+        transition: all .5s ease-in-out;
+        overflow: hidden;
+    }
+    table td:hover ul{              
+        max-height: 200px;
+        border: solid 1px;
+        transition: all .5s ease-in-out;
+    }
+    td:hover {
+        font-weight: bold;
+    }
+    td:hover ul li {
+        font-weight: normal;
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+    form input, form select {
+        width: 300px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    form select {
+        width: 330px;
+    }
+    label {
+        margin-top: 20px;
+    }
+    form button[type="submit"] {
+        margin: 30px;
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(180, 180, 180);
+
+        scale: 1;
+        transition: scale 0.2s ease-in-out;
+    }
+    form button[type="submit"]:hover {
+        scale: 1.1;
+        transform: scale 0.2s ease-in-out;
+        cursor: pointer;
+    }
