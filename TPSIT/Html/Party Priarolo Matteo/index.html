@@ -15,7 +15,7 @@
 
         <div>
             <h2>Invitati</h2>
-            <ul>
+            <ul id="invitati">
                 <li>Giacomo</li>
                 <li>Leonardo</li>
                 <li>Luca</li>
@@ -27,30 +27,24 @@
             <h2>Scegli i tuoi piatti</h2>
         </center>
         <div id="piatti">
-            <div id="piatti_cont">
-                <div class="card">
-                    <div class="cont_img">
-                        <img src="img/pizza.webp" alt="">
-                    </div>
-                    <h5>Pizza</h5>
+            <div class="card">
+                <div class="cont_img">
+                    <img src="img/pizza.webp" alt="">
                 </div>
+                <h5>Pizza</h5>
             </div>
-            <div id="piatti_cont">
-                <div class="card">
-                    <div class="cont_img">
-                        <img src="img/panino.webp" alt="">
-                    </div>
-                    <h5>Panino</h5>
+            <div class="card">
+                <div class="cont_img">
+                    <img src="img/panino.webp" alt="">
                 </div>
+                <h5>Panino</h5>
             </div>
-            <div id="piatti_cont">
-                <div class="card">
-                    <div class="cont_img">
-                        <img src="img/pasta.jfif" alt="">
-                    </div>
-                    <h5>Pasta</h5>
+            <div class="card">
+                <div class="cont_img">
+                    <img src="img/pasta.jfif" alt="">
                 </div>
-            </div>  
+                <h5>Pasta</h5>
+            </div> 
         </div>
         <center>
             <label for="">Cibo</label>
@@ -60,6 +54,26 @@
                 <option value="Pasta">Pasta</option>
             </select>
         </center>
+
+        <div class="center" style="flex-direction: column; margin: 50px 0 0 0;" id="form">
+            <form class="" action="" style=" display: flex; flex-direction: column;">
+                <label for="">Nome</label>
+                <input type="text" name="" id="nome">
+                <label for="">Cognome</label>
+                <input type="text" name="" id="cognome">
+
+                <input type="submit">
+            </form>
+        </div>
         
     </body>
+    <script>
+        document.getElementById('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            invitati = document.getElementById('invitati')
+
+            invitati.innerHTML += '<li>' + document.getElementById('nome').value + '</li>';
+        })
+    </script>
 </html>
