@@ -48,7 +48,7 @@
         </div>
         <center>
             <label for="">Cibo</label>
-            <select name="" id="">
+            <select name="" id="cibo">
                 <option value="Pizza">Pizza</option>
                 <option value="Panino">Panino</option>
                 <option value="Pasta">Pasta</option>
@@ -73,7 +73,7 @@
             
             invitati = document.getElementById('invitati')
 
-            invitati.innerHTML += '<li>' + document.getElementById('nome').value + '</li>';
+            invitati.innerHTML += '<li>' + document.getElementById('nome').value + ' ' + document.getElementById('cognome').value + ' ha scelto ' + document.getElementById('cibo').value + '</li>';
         })
     </script>
 </html>
