@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Squadra</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+
+    <div class="container">
+        <form id="signup" action="index.html" method="post">
+            <h1>Registrazione</h1>
+            <fieldset>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="cognome">Cognome</label>
+                <input type="text" id="cognome" name="cognome">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <p id="em-error" class="error" style="display: none;" ></p>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <p id="pw-error" class="error" style="display: none;"></p>
+
+                <label for="confermapsw">Conferma password</label>
+                <input type="password" id="confermapsw" name="confermapsw" >
+                <p id="cPw-error" class="error" style="display: none;"></p>
+
+                <button type="submit" id="invia" >Invia</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script>
+    (function(){
+
+        const form = document.getElementById('signup');
+        const pw = document.getElementById('password');
+        const pw2 = document.getElementById('confermapsw');
+        const err = document.getElementById('cPw-error');
+        
+
+        function checkMatch(){
+            if (pw.value && pw2.value && pw.value !== pw2.value){
+                err.style.display = 'block';
+                err.textContent = 'Le password non corrispondono';
+                pw2.setAttribute('aria-invalid','true');
+                return false;
+            } else {
+                err.textContent = '';
+                err.style.display = 'none';
+                return true;
+            }
+        }
+
+        const email = document.getElementById('email');
+
+        function checkEmail(){
+            if (email.value && email.value.indexOf('@') === -1){
+            e = document.getElementById('em-error');
+            e.style.display ='block';
+            e.textContent = 'La email deve avere la @';
+            return false;
+            } else {
+            e = document.getElementById('em-error');
+            e.textContent = '';
+            e.style.display = 'none';
+            return true;
+            }
+        }
+
+        email.addEventListener('input', checkEmail);
+
+        pw.addEventListener('input', checkMatch);
+        pw2.addEventListener('input', checkMatch);
+
+        form.addEventListener('submit', function(e){
+            if (!checkMatch() || !checkEmail()){
+                e.preventDefault();
+                pw2.focus();
+                return;
+            }
+        });
+    })();
+
+    </script>
+
+</body>
+</html>
