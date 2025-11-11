@@ -1,0 +1,36 @@
+section {
+    border: none;
+    border-radius: none;
+    padding: none;
+    max-width: 1000px;
+    backdrop-filter: none;
+}
+
+/* ====================
+INDEX.HTML 
+====================*/
+#first_img {
+    /* border: 1px solid red; */
+    /* border-radius: var(--radius); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+    #first_img img {
+        width: 100vw;
+        height: 100vh;
+    }
+
+#first {
+    /* border: 1px red solid; */
+    width: 70vw;
+    height: fit-content;
+    position: relative;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* ================================ */

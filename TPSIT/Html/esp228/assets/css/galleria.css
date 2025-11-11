@@ -1,0 +1,25 @@
+
+section {
+    /* border: solid red 2px; */
+    gap: 50px;
+}
+
+.images {
+    /* border: solid red 2px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+    .img_container {
+        overflow: hidden;
+        width: 350px;
+        height: 350px;
+        border-radius: var(--radius);
+    }
+    .img_container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }

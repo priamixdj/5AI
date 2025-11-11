@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Squadra</title>
+    <title>Teorema | Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
+    <div id="first_img" class="img_cont img_opacity">
+        <img id="first_img" src="assets/img/sfondo.jpg" class="" alt="">
+    </div>
 <body>
 
-    <div class="container">
+    <header class="center">
+        <h1>Teorema</h1>
+        <nav class="center">
+            <li><a href="storia.html">Storia</a></li>
+            <li><a href="galleria.html">Galleria</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="spettacoli.html">Spettacoli</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </nav>
+
+        <div class="profile_img img_cont center">
+            <a href="login.html"><img src="assets/img/default_profile_img.webp" alt=""></a>
+        </div>
+    </header>
+    
+    <div class="container center">
         <form id="signup" action="index.html" method="post">
             <h1>Registrazione</h1>
             <fieldset>
@@ -43,6 +66,23 @@
         const pw2 = document.getElementById('confermapsw');
         const err = document.getElementById('cPw-error');
         
+        const PWerr = document.getElementById('pw-error');
+
+        function checkLength() {
+
+            if(pw.value.length < 6){
+                PWerr.style.display = 'block';
+                PWerr.textContent = 'La password deve essere di almeno 6';
+                return false;
+            }
+            else{
+                PWerr.style.display = 'none';
+                PWerr.textContent = '';
+                return true;
+            }
+            
+        }
+
 
         function checkMatch(){
             if (pw.value && pw2.value && pw.value !== pw2.value){
@@ -60,7 +100,7 @@
         const email = document.getElementById('email');
 
         function checkEmail(){
-            if (email.value && email.value.indexOf('@') === -1){
+            if (email.value && email.value.indexOf('@') == -1){
             e = document.getElementById('em-error');
             e.style.display ='block';
             e.textContent = 'La email deve avere la @';
@@ -75,7 +115,7 @@
 
         email.addEventListener('input', checkEmail);
 
-        pw.addEventListener('input', checkMatch);
+        pw.addEventListener('input', checkLength);
         pw2.addEventListener('input', checkMatch);
 
         form.addEventListener('submit', function(e){

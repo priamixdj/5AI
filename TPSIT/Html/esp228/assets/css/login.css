@@ -1,36 +1,49 @@
+:root {
+    --red: #ff3b5f;
+    --violet: #a731f7;
+    --text-color: #f5d9ff;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Sfondo gradevole */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 32px;
+    color: var(--text-color);
+    font-family: sans-serif;
 }
 
-/* Card centrale */
 .container{
-    width: 100%;
-    max-width: 420px;
+    /* border: solid red 2px; */
+    width: 100vw;
 }
 
-/* Form stile card */
 form{
-    background: rgba(255,255,255,0.98);
+    background: rgba(45, 0, 50, 0.9);
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     overflow: hidden;
+    border: 1px solid var(--violet);
+    width: 50%;
+    min-width: 300px;
 }
 
 form h1{
     margin: 18px 0 0;
     padding: 18px 22px 0;
-    font-size: 1.4rem;
-    color: #073957;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -43,10 +56,9 @@ fieldset{
     background: transparent;
 }
 
-/* Label e input */
 label{
     font-size: 0.9rem;
-    color: #234b5e;
+    color: #e6b7ff;
     margin-bottom: 6px;
 }
 
@@ -57,41 +69,41 @@ select {
     width: 100%;
     padding: 10px 12px;
     border-radius: 10px;
-    border: 1px solid #c9dbe6;
-    background: #fbfbfd;
+    border: 1px solid #7e1f8c;
+    background: #2a0033;
+    color: #f9e9ff;
     transition: box-shadow .15s, border-color .15s;
     font-size: 0.95rem;
 }
 
 input:focus, select:focus{
     outline: none;
-    border-color: #1e9bd1;
-    box-shadow: 0 4px 18px rgba(30,155,209,0.22);
+    border-color: var(--red);
+    box-shadow: 0 0 12px rgba(255, 59, 95, 0.5);
+    background: #3d0044;
 }
 
-/* Pulsante */
 button#invia{
     margin-top: 8px;
     width: 100%;
     padding: 10px 14px;
     border: none;
     border-radius: 10px;
-    background: linear-gradient(90deg,#0b6aa8,#1e9bd1);
+    background: linear-gradient(90deg, var(--violet), var(--red));
     color: #fff;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 6px 18px rgba(14,86,123,0.2);
+    box-shadow: 0 6px 18px rgba(197, 110, 255, 0.3);
     transition: transform .08s, box-shadow .12s;
 }
 
 button#invia:hover{
     transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(255, 59, 95, 0.4);
 }
 
-/* Messaggi di errore */
 .error{
-    color: #b00020;
+    color: var(--red);
     font-size: 0.85rem;
     min-height: 1.1em;
 }
-
