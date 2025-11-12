@@ -66,41 +66,45 @@ main {
 }
 header {
     /* border: rgb(0, 47, 255) 1px solid; */
-    gap:10vw;
+    gap: 4vw;
 
     top: 0;
     left: 0;
     display: flex;
-    align-items: center;
     padding: var(--padding);
     position: fixed;
     /* border: 2px red solid; */
-    width: 100%;
+    width: 100vw;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 20px var(--card-color);
     color: white;
     z-index: 2;
 
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+header * {
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+header .navbar-toggler {
+    width:40px;
+    height:40px;
 }
 header h1 {
     text-shadow: 0 0 10px black;
 }
 nav {
-    min-width: 500px;
-
     height: 100%;
     display: flex;
     gap: 20px;
-    /* border: 1px solid; */
+    border: 1px solid;
     height: 100%;
+    border: none;
 }
     nav li {
         list-style: none;
-        /* border: 1px solid; */
+        /* border: 1px solid rgb(255, 0, 0); */
         transition: all .2s linear;
     }
         nav li a {
@@ -192,10 +196,9 @@ header .profile_img {
             display: inline-block;
         }
 
+        
 
-
-
-@media (max-width: 502px) {
+@media (max-width: 702px) {
     header nav {
         opacity: 0;
         display: none;
