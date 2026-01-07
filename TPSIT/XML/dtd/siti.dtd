@@ -1,0 +1,9 @@
+lista[
+    <!ELEMENT lista (sito+)>
+    <!ELEMENT sito (nome, URL, descrizione, categoria)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT URL (#PCDATA)>
+    <!ELEMENT descrizione (#PCDATA)>
+    <!ELEMENT categoria (#PCDATA)>
+    <!ATTLIST sito IDSito ID #REQUIRED>
+]>

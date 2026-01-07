@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<biblioteca>
+	<libro ID="2345">
+		<autore>Manzoni Alessandro</autore>
+		<titolo>I promessi sposi</titolo>
+		<annoedizione>184O</annoedizione>
+	</libro>
+	<libro ID="9786">
+		<autore>William Shakespeare</autore>
+		<titolo>Hamlet</titolo>
+		<annoedizione>1654</annoedizione>
+	</libro>
+</biblioteca>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Astri xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="stelle.xsd">
+    
+    <Stella>
+        <ID>1</ID>
+        <Nome>ACHERNAR</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Eri</Abbreviazione>
+        <Genitivo>eridani </Genitivo>
+        <Costellazione>ERIDANO</Costellazione>
+        <Significato>foce del fiume</Significato>
+    </Stella>
+    <Stella>
+        <ID>2</ID>
+        <Nome>ACRAB</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Sco</Abbreviazione>
+        <Genitivo>scorpii </Genitivo>
+        <Costellazione>SCORPIONE</Costellazione>
+        <Significato>scorpione</Significato>
+    </Stella>
+    <Stella>
+        <ID>3</ID>
+        <Nome>ACUBENS</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cnc</Abbreviazione>
+        <Genitivo>cancri </Genitivo>
+        <Costellazione>CANCRO</Costellazione>
+        <Significato>chela</Significato>
+    </Stella>
+    <Stella>
+        <ID>4</ID>
+        <Nome>ADHARA</Nome>
+        <Luminosita>epsilon</Luminosita>
+        <Abbreviazione>CMa</Abbreviazione>
+        <Genitivo>canis majoris</Genitivo>
+        <Costellazione>CANE MAGGIORE</Costellazione>
+        <Significato>fanciulle</Significato>
+    </Stella>
+    <Stella>
+        <ID>5</ID>
+        <Nome>ALAMAK</Nome>
+        <Luminosita>gamma</Luminosita>
+        <Abbreviazione>And</Abbreviazione>
+        <Genitivo>andromedae </Genitivo>
+        <Costellazione>ANDROMEDA</Costellazione>
+        <Significato>lince del deserto</Significato>
+    </Stella>
+    <Stella>
+        <ID>6</ID>
+        <Nome>ALBIREO</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Cyg</Abbreviazione>
+        <Genitivo>cygni </Genitivo>
+        <Costellazione>CIGNO</Costellazione>
+        <Significato>becco della gallina</Significato>
+    </Stella>
+    <Stella>
+        <ID>7</ID>
+        <Nome>ALCOR</Nome>
+        <Luminosita>80</Luminosita>
+        <Abbreviazione>UMa</Abbreviazione>
+        <Genitivo>ursae majoris</Genitivo>
+        <Costellazione>ORSA MAGGIORE</Costellazione>
+        <Significato>vile, indegno</Significato>
+    </Stella>
+    <Stella>
+        <ID>8</ID>
+        <Nome>ALCYONE</Nome>
+        <Luminosita>eta</Luminosita>
+        <Abbreviazione>Tau</Abbreviazione>
+        <Genitivo>tauri </Genitivo>
+        <Costellazione>TORO</Costellazione>
+        <Significato>regina che evita il male</Significato>
+    </Stella>
+    <Stella>
+        <ID>9</ID>
+        <Nome>ALDEBARAN</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Tau</Abbreviazione>
+        <Genitivo>tauri </Genitivo>
+        <Costellazione>TORO</Costellazione>
+        <Significato>colui che segue</Significato>
+    </Stella>
+    <Stella>
+        <ID>10</ID>
+        <Nome>ALDERAMIN</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cep</Abbreviazione>
+        <Genitivo>cephei </Genitivo>
+        <Costellazione>CEFEO</Costellazione>
+        <Significato>avambraccio destro</Significato>
+    </Stella>
+    <Stella>
+        <ID>11</ID>
+        <Nome>ALGEDI</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cap</Abbreviazione>
+        <Genitivo>capricorni </Genitivo>
+        <Costellazione>CAPRICORNO</Costellazione>
+        <Significato>la capra</Significato>
+    </Stella>
+    <Stella>
+        <ID>12</ID>
+        <Nome>ALGOL</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Per</Abbreviazione>
+        <Genitivo>persei </Genitivo>
+        <Costellazione>PERSEO</Costellazione>
+        <Significato>orco, mostro</Significato>
+    </Stella>
+    <Stella>
+        <ID>13</ID>
+        <Nome>ALKAID</Nome>
+        <Luminosita>eta</Luminosita>
+        <Abbreviazione>UMa</Abbreviazione>
+        <Genitivo>ursae majoris</Genitivo>
+        <Costellazione>ORSA MAGGIORE</Costellazione>
+        <Significato>il capo dei defunti</Significato>
+    </Stella>
+    <Stella>
+        <ID>14</ID>
+        <Nome>ALNILAM</Nome>
+        <Luminosita>epsilon</Luminosita>
+        <Abbreviazione>Ori</Abbreviazione>
+        <Genitivo>orionis </Genitivo>
+        <Costellazione>ORIONE</Costellazione>
+        <Significato>composizione di perle</Significato>
+    </Stella>
+    <Stella>
+        <ID>15</ID>
+        <Nome>ALNITAK</Nome>
+        <Luminosita>zeta</Luminosita>
+        <Abbreviazione>Ori</Abbreviazione>
+        <Genitivo>orionis </Genitivo>
+        <Costellazione>ORIONE</Costellazione>
+        <Significato>cintura</Significato>
+    </Stella>
+    <Stella>
+        <ID>16</ID>
+        <Nome>ALPHARD</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Hya</Abbreviazione>
+        <Genitivo>hydrae </Genitivo>
+        <Costellazione>IDRA</Costellazione>
+        <Significato>la solitaria</Significato>
+    </Stella>
+    <Stella>
+        <ID>17</ID>
+        <Nome>ALPHECCA</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>CrB</Abbreviazione>
+        <Genitivo>corona borealis</Genitivo>
+        <Costellazione>CORONA BOREALE</Costellazione>
+        <Significato>il piatto</Significato>
+    </Stella>
+    <Stella>
+        <ID>18</ID>
+        <Nome>ALPHERATZ</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>And</Abbreviazione>
+        <Genitivo>andromedae </Genitivo>
+        <Costellazione>ANDROMEDA</Costellazione>
+        <Significato>cavallo</Significato>
+    </Stella>
+    <Stella>
+        <ID>19</ID>
+        <Nome>ALTAIR</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Aql</Abbreviazione>
+        <Genitivo>aquilae </Genitivo>
+        <Costellazione>AQUILA</Costellazione>
+        <Significato>colei che vola</Significato>
+    </Stella>
+    <Stella>
+        <ID>20</ID>
+        <Nome>ANTARES</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Sco</Abbreviazione>
+        <Genitivo>scorpii </Genitivo>
+        <Costellazione>SCORPIONE</Costellazione>
+        <Significato>rivale di Marte</Significato>
+    </Stella>
+    <Stella>
+        <ID>21</ID>
+        <Nome>ARCTURUS</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Boo</Abbreviazione>
+        <Genitivo>bootis </Genitivo>
+        <Costellazione>BOOTE</Costellazione>
+        <Significato>guardiano degli orsi</Significato>
+    </Stella>
+    <Stella>
+        <ID>22</ID>
+        <Nome>ASELLUS AUSTRALIS</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cnc</Abbreviazione>
+        <Genitivo>cancri </Genitivo>
+        <Costellazione>CANCRO</Costellazione>
+        <Significato>asino meridionale</Significato>
+    </Stella>
+    <Stella>
+        <ID>23</ID>
+        <Nome>BELLATRIX</Nome>
+        <Luminosita>gamma</Luminosita>
+        <Abbreviazione>Ori</Abbreviazione>
+        <Genitivo>orionis </Genitivo>
+        <Costellazione>ORIONE</Costellazione>
+        <Significato>donna guerriera</Significato>
+    </Stella>
+    <Stella>
+        <ID>24</ID>
+        <Nome>BETELGEUSE</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Ori</Abbreviazione>
+        <Genitivo>orionis </Genitivo>
+        <Costellazione>ORIONE</Costellazione>
+        <Significato>ascella del gigante</Significato>
+    </Stella>
+    <Stella>
+        <ID>25</ID>
+        <Nome>CAPELLA</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Aur</Abbreviazione>
+        <Genitivo>aurigae </Genitivo>
+        <Costellazione>AURIGA</Costellazione>
+        <Significato>capretta</Significato>
+    </Stella>
+    <Stella>
+        <ID>26</ID>
+        <Nome>CASTORE</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Gem</Abbreviazione>
+        <Genitivo>gemini </Genitivo>
+        <Costellazione>GEMELLI</Costellazione>
+        <Significato>Castore</Significato>
+    </Stella>
+    <Stella>
+        <ID>27</ID>
+        <Nome>COR CAROLI</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>CVn</Abbreviazione>
+        <Genitivo>canum venaticorum</Genitivo>
+        <Costellazione>CANI DA CACCIA</Costellazione>
+        <Significato>cuore di Carlo (II d&apos;Inghilterra)</Significato>
+    </Stella>
+    <Stella>
+        <ID>28</ID>
+        <Nome>DENEB</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cyg</Abbreviazione>
+        <Genitivo>cygni </Genitivo>
+        <Costellazione>CIGNO</Costellazione>
+        <Significato>coda</Significato>
+    </Stella>
+    <Stella>
+        <ID>29</ID>
+        <Nome>DENEBOLA</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Leo</Abbreviazione>
+        <Genitivo>leonis </Genitivo>
+        <Costellazione>LEONE</Costellazione>
+        <Significato>coda del leone</Significato>
+    </Stella>
+    <Stella>
+        <ID>30</ID>
+        <Nome>DUBHE</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>UMa</Abbreviazione>
+        <Genitivo>ursae majoris</Genitivo>
+        <Costellazione>ORSA MAGGIORE</Costellazione>
+        <Significato>orso</Significato>
+    </Stella>
+    <Stella>
+        <ID>31</ID>
+        <Nome>ELNATH</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Tau</Abbreviazione>
+        <Genitivo>tauri </Genitivo>
+        <Costellazione>TORO</Costellazione>
+        <Significato>il corno</Significato>
+    </Stella>
+    <Stella>
+        <ID>32</ID>
+        <Nome>GOMEISA</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>CMi</Abbreviazione>
+        <Genitivo>canis minoris</Genitivo>
+        <Costellazione>CANE MINORE</Costellazione>
+        <Significato>appannata, indistinta</Significato>
+    </Stella>
+    <Stella>
+        <ID>33</ID>
+        <Nome>HAMAL</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Ari</Abbreviazione>
+        <Genitivo>arietis </Genitivo>
+        <Costellazione>ARIETE</Costellazione>
+        <Significato>ariete</Significato>
+    </Stella>
+    <Stella>
+        <ID>34</ID>
+        <Nome>MARKAB</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Peg</Abbreviazione>
+        <Genitivo>pegasi </Genitivo>
+        <Costellazione>PEGASO</Costellazione>
+        <Significato>la cosa su cui si cavalca, spalla</Significato>
+    </Stella>
+    <Stella>
+        <ID>35</ID>
+        <Nome>MENKALINAN</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Aur</Abbreviazione>
+        <Genitivo>aurigae </Genitivo>
+        <Costellazione>AURIGA</Costellazione>
+        <Significato>spalla di quello delle redini</Significato>
+    </Stella>
+    <Stella>
+        <ID>36</ID>
+        <Nome>MENKAR</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cet</Abbreviazione>
+        <Genitivo>ceti </Genitivo>
+        <Costellazione>BALENA</Costellazione>
+        <Significato>il muso</Significato>
+    </Stella>
+    <Stella>
+        <ID>37</ID>
+        <Nome>NEKKAR</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Boo</Abbreviazione>
+        <Genitivo>bootis </Genitivo>
+        <Costellazione>BOOTE</Costellazione>
+        <Significato>bovaro</Significato>
+    </Stella>
+    <Stella>
+        <ID>38</ID>
+        <Nome>POLARE</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>UMi</Abbreviazione>
+        <Genitivo>ursae minoris</Genitivo>
+        <Costellazione>ORSA MINORE</Costellazione>
+        <Significato>polare</Significato>
+    </Stella>
+    <Stella>
+        <ID>39</ID>
+        <Nome>POLLUCE</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Gem</Abbreviazione>
+        <Genitivo>geminorum </Genitivo>
+        <Costellazione>GEMELLI</Costellazione>
+        <Significato>molto vino</Significato>
+    </Stella>
+    <Stella>
+        <ID>40</ID>
+        <Nome>PORRIMA</Nome>
+        <Luminosita>gamma</Luminosita>
+        <Abbreviazione>Vir</Abbreviazione>
+        <Genitivo>virginis </Genitivo>
+        <Costellazione>VERGINE</Costellazione>
+        <Significato>dea romana del parto</Significato>
+    </Stella>
+    <Stella>
+        <ID>41</ID>
+        <Nome>PROCIONE</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>CMi</Abbreviazione>
+        <Genitivo>canis minoris</Genitivo>
+        <Costellazione>CANE MINORE</Costellazione>
+        <Significato>che precede il cane</Significato>
+    </Stella>
+    <Stella>
+        <ID>42</ID>
+        <Nome>PULCHERRIMA</Nome>
+        <Luminosita>epsilon</Luminosita>
+        <Abbreviazione>Boo</Abbreviazione>
+        <Genitivo>bootis </Genitivo>
+        <Costellazione>BOOTE</Costellazione>
+        <Significato>bellissima</Significato>
+    </Stella>
+    <Stella>
+        <ID>43</ID>
+        <Nome>RASALHAUGE</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Oph</Abbreviazione>
+        <Genitivo>ophiuchi </Genitivo>
+        <Costellazione>OFIUCO</Costellazione>
+        <Significato>testa del serpente</Significato>
+    </Stella>
+    <Stella>
+        <ID>44</ID>
+        <Nome>RASALGETHI</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Her</Abbreviazione>
+        <Genitivo>herculi </Genitivo>
+        <Costellazione>ERCOLE</Costellazione>
+        <Significato>testa dell&apos;inginocchiato</Significato>
+    </Stella>
+    <Stella>
+        <ID>45</ID>
+        <Nome>RASTABAN</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Dra</Abbreviazione>
+        <Genitivo>draconis </Genitivo>
+        <Costellazione>DRAGO</Costellazione>
+        <Significato>testa del dragone</Significato>
+    </Stella>
+    <Stella>
+        <ID>46</ID>
+        <Nome>REGOLO</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Leo</Abbreviazione>
+        <Genitivo>leonis </Genitivo>
+        <Costellazione>LEONE</Costellazione>
+        <Significato>principe, piccolo re</Significato>
+    </Stella>
+    <Stella>
+        <ID>47</ID>
+        <Nome>RIGEL</Nome>
+        <Luminosita>beta</Luminosita>
+        <Abbreviazione>Ori</Abbreviazione>
+        <Genitivo>orionis </Genitivo>
+        <Costellazione>ORIONE</Costellazione>
+        <Significato>piede</Significato>
+    </Stella>
+    <Stella>
+        <ID>48</ID>
+        <Nome>SADALMELIK</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Aqr</Abbreviazione>
+        <Genitivo>aquarii </Genitivo>
+        <Costellazione>ACQUARIO</Costellazione>
+        <Significato>stella fortunata del re</Significato>
+    </Stella>
+    <Stella>
+        <ID>49</ID>
+        <Nome>SHEDIR</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Cas</Abbreviazione>
+        <Genitivo>cassiopeiae </Genitivo>
+        <Costellazione>CASSIOPEA</Costellazione>
+        <Significato>il seno</Significato>
+    </Stella>
+    <Stella>
+        <ID>50</ID>
+        <Nome>SIRIO</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>CMa</Abbreviazione>
+        <Genitivo>canis majoris</Genitivo>
+        <Costellazione>CANE MAGGIORE</Costellazione>
+        <Significato>che brucia o scotta</Significato>
+    </Stella>
+    <Stella>
+        <ID>51</ID>
+        <Nome>SPICA</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Vir</Abbreviazione>
+        <Genitivo>virginis </Genitivo>
+        <Costellazione>VERGINE</Costellazione>
+        <Significato>spiga</Significato>
+    </Stella>
+    <Stella>
+        <ID>52</ID>
+        <Nome>VEGA</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Lyr</Abbreviazione>
+        <Genitivo>lyrae </Genitivo>
+        <Costellazione>LIRA</Costellazione>
+        <Significato>colei che si avventa in picchiata</Significato>
+    </Stella>
+    <Stella>
+        <ID>53</ID>
+        <Nome>ZUBENELGENUBI</Nome>
+        <Luminosita>alfa</Luminosita>
+        <Abbreviazione>Lib</Abbreviazione>
+        <Genitivo>librae </Genitivo>
+        <Costellazione>BILANCIA</Costellazione>
+        <Significato>chela meridionale</Significato>
+    </Stella>
+</Astri>

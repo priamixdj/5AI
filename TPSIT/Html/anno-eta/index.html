@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <button onclick="calcolaJavascript()">Clicca per attivare solo javascript</button>
+
+        <form action="" id="eta_form" onsubmit="calcola()">
+            <input type="number" placeholder="Inserisci il tuo anno di nascita" id="anno_nascita">
+            <input type="submit" value="Calcola età">
+        </form>
+
+        <h1>Qui calcolerà la tua età</h1>
+    </body>
+</html>
+
+<script>
+    var data = new Date();
+    var anno_attuale = data.getFullYear();
+    var anno_nascita;
+    var eta;
+
+    function calcolaJavascript() {
+        anno_nascita = prompt("inserisci l' anno di nascita");
+        eta = anno_attuale - anno_nascita;
+        alert("la tua età è " + eta);
+    }
+
+    function calcola() {
+        event.preventDefault();
+
+        anno_nascita = document.getElementById("anno_nascita").value;
+
+        eta = anno_attuale - anno_nascita;
+        document.querySelector('h1').innerHTML = "la tua età è: " + eta;
+        
+    }    
+</script> 
+

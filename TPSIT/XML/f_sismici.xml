@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE fenomeni [
+    <!ELEMENT fenomeni (rilevazione+)>
+    <!ELEMENT rilevazione (mese, giorno, ora, latitudine, longitudine, magnitudo, profondita)>
+    <!ELEMENT mese (#PCDATA)>
+    <!ELEMENT giorno (#PCDATA)>
+    <!ELEMENT ora (#PCDATA)>
+    <!ELEMENT latitudine (#PCDATA)>
+    <!ELEMENT longitudine (#PCDATA)>
+    <!ELEMENT magnitudo (#PCDATA)>
+    <!ELEMENT profondita (#PCDATA)>
+]>
+
+<fenomeni>
+    <rilevazione>
+        <mese>gennaio</mese>
+        <giorno>23</giorno>
+        <ora>3</ora>
+        <latitudine>+</latitudine>
+        <longitudine>-</longitudine>
+        <magnitudo>3</magnitudo>
+        <profondita>30</profondita>
+    </rilevazione>
+
+    <rilevazione>
+        <mese>gennaio</mese>
+        <giorno>3</giorno>
+        <ora>15</ora>
+        <latitudine>-</latitudine>
+        <longitudine>-</longitudine>
+        <magnitudo>5</magnitudo>
+        <profondita>30</profondita>
+    </rilevazione>
+
+    <rilevazione>
+        <mese>maggio</mese>
+        <giorno>2</giorno>
+        <ora>8</ora>
+        <latitudine>+</latitudine>
+        <longitudine>-</longitudine>
+        <magnitudo>3</magnitudo>
+        <profondita>9</profondita>
+    </rilevazione>
+
+    <rilevazione>
+        <mese>febbraio</mese>
+        <giorno>23</giorno>
+        <ora>4</ora>
+        <latitudine>+</latitudine>
+        <longitudine>-</longitudine>
+        <magnitudo>3</magnitudo>
+        <profondita>5</profondita>
+    </rilevazione>
+</fenomeni>

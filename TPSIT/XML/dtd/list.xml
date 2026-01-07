@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista SYSTEM "siti.dtd">
+<lista>
+<sito IDSito="s001">
+<nome>CERN</nome>
+<URL>http://home.cern/</URL>
+<descrizione>Centro europeo per la ricerca nucleare</descrizione>
+<categoria>siti istituzionali</categoria>
+</sito>
+<sito IDSito="s002">
+<nome>Museo della scienza e della tecnologia</nome>
+<URL>http://www.museoscienza.org/</URL>
+<descrizione>Museo Leonardo da Vinci di Milano</descrizione>
+<categoria>musei</categoria>
+</sito>
+</lista>

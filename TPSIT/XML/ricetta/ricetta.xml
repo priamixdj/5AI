@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ricettario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ricetta.xsd"><ricetta>
+    <titolo>Torta</titolo>
+    <autore>Giacomini Giacomo</autore>
+    <ingredienti>
+        <nome>farina</nome>
+        <quantita>3</quantita>
+        <unita>3</unita>
+    </ingredienti>
+    <procedura>
+        <procedo>verso la farina</procedo>
+        <procedo>inserire l acqua</procedo>
+        <procedo>prendere la prima unita </procedo>
+        <procedo>mescolare</procedo>
+    </procedura>
+</ricetta>
+<ricetta>
+    <titolo>Torta</titolo>
+    <autore>Giacomini Giacomo</autore>
+    <ingredienti>
+        <nome>farina</nome>
+        <quantita>3</quantita>
+        <unita>3</unita>
+    </ingredienti>
+    <procedura>
+        <procedo>verso la farina</procedo>
+        <procedo>inserire l acqua</procedo>
+        <procedo>prendere la prima unita </procedo>
+        <procedo>mescolare</procedo>
+    </procedura>
+</ricetta>
+<ricetta>
+    <titolo>Torta</titolo>
+    <autore>Giacomini Giacomo</autore>
+    <ingredienti>
+        <nome>farina</nome>
+        <quantita>3</quantita>
+        <unita>3</unita>
+    </ingredienti>
+    <procedura>
+        <procedo>verso la farina</procedo>
+        <procedo>inserire l acqua</procedo>
+        <procedo>prendere la prima unita </procedo>
+        <procedo>mescolare</procedo>
+    </procedura>
+</ricetta>
+<ricetta>
+    <titolo>Torta</titolo>
+    <autore>Giacomini Giacomo</autore>
+    <ingredienti>
+        <nome>farina</nome>
+        <quantita>3</quantita>
+        <unita>3</unita>
+    </ingredienti>
+    <procedura>
+        <procedo>verso la farina</procedo>
+        <procedo>inserire l acqua</procedo>
+        <procedo>prendere la prima unita </procedo>
+        <procedo>mescolare</procedo>
+    </procedura>
+</ricetta>
+</ricettario>
