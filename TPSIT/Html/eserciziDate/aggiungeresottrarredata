@@ -1,4 +1,0 @@
-let oggi = new Date();
-let tra10giorni = new Date(oggi);
-tra10giorni.setDate(oggi.getDate() + 10);
-console.log("Tra 10 giorni sarà:", tra10giorni);

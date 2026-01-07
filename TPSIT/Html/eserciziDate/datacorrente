@@ -1,8 +1,0 @@
-let oggi = new Date();
-console.log("Data completa:", oggi);
-
-// Mostra solo giorno, mese e anno
-let giorno = oggi.getDate();
-let mese = oggi.getMonth() + 1; // I mesi partono da 0
-let anno = oggi.getFullYear();
-console.log("Data formattata:", giorno + "/" + mese + "/" + anno);

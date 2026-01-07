@@ -1,8 +1,0 @@
-let oggi = new Date();
-let opzioni = { 
-  weekday: 'long', 
-  year: 'numeric', 
-  month: 'long', 
-  day: 'numeric' 
-};
-console.log("Data leggibile:", oggi.toLocaleDateString('it-IT', opzioni));
